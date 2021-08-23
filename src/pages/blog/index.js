@@ -48,8 +48,8 @@ const DerivBlog = () => {
     }
     const data = useStaticQuery(query)
     return (
-        <Layout type="blog" is_ppc_redirect={true}>
-            <SEO title={localize('Blog')} description={localize('Blog like a boss')} no_index />
+        <Layout type="academy" is_ppc_redirect={true}>
+            <SEO title={localize('Academy')} description={localize('Blog like a boss')} no_index />
             <MainWrapper>
                 <Carousel has_autoplay autoplay_interval={60000000} {...settings}>
                     <Hero
